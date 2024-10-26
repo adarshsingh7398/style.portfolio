@@ -1,0 +1,392 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adarsh Singh Portfolio</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgba(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgba(153, 153, 226);
+    font-size: 1.04rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+    text-align: center;
+}
+
+.firstsection > div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3rem;
+}
+
+.leftsection .button {
+    padding: 50px 0;
+}
+
+.leftsection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftsection .btn:hover {
+    background: #f1e897;
+}
+
+.rightsection img {
+    width: 50%;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+main hr {
+    border: 0;
+    margin: 60px 84px;
+    height: 1.2px;
+    background: #9c97f1;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.secondsection .box {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    width: 100%;
+    height: auto;
+    margin: 56px 0;
+    font-size: 14px;
+    justify-content: space-around;
+}
+
+.secondsection .vertical {
+    height: 120px;
+    width: 150px;
+    background-color: #111;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+.image-top {
+    width: 40px;
+    position: relative;
+    top: -23px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 10px;
+    font-size: 16px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 15px;
+    color: rgb(18, 194, 230);
+    font-size: 12px;
+}
+
+footer {
+    background-color: #0e0e1a;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+.footer-second button img {
+    cursor: pointer;
+    height: 24px;
+    width: 20px;
+}
+
+@media screen and (max-width: 1150px) {
+    .firstsection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstsection > div {
+        width: 90%;
+    }
+
+    .leftsection {
+        font-size: 2rem;
+    }
+
+    .rightsection img {
+        width: 80%;
+    }
+
+    .secondsection .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .secondsection .vertical {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .firstsection {
+        margin: 50px 0;
+    }
+
+    .leftsection {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .rightsection img {
+        width: 90%;
+    }
+
+    .secondsection h1 {
+        font-size: 1.5rem;
+    }
+
+    .vertical-title {
+        font-size: 14px;
+    }
+
+    .vertical-desc {
+        font-size: 10px;
+    }
+}
+
+    </style>
+</head>
+     <!-- Navbar -->
+     <header>
+        <nav>
+            <div class="left">Adarsh's Portfolio</div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<body>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Adarsh</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="image/18448.jpg" alt="Profile Image">
+            </div>
+            <hr>
+        </section>
+
+        <section class="secondsection">
+            <span class="text-gray">What I Have Done so far</span>
+            <h1>Work Experience | I have no Experience and I am a Fresher</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="image/download (3).png" alt="HTML Developer Image">
+                    <div class="vertical-title">HTML Developer (Present time-2024)</div>
+                    <div class="vertical-desc">
+                        An HTML developer uses HTML to create website layouts based on templates and wireframes.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="image/download (4).png" alt="JS Developer Image">
+                    <div class="vertical-title">JS Developer (Present time-2024)</div>
+                    <div class="vertical-desc">
+                        A JavaScript developer creates and maintains online applications using JavaScript.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="image/download (1).jpg" alt="CSS Developer Image">
+                    <div class="vertical-title">CSS Developer (Present time-2024)</div>
+                    <div class="vertical-desc">
+                        CSS developers control web page presentation and layout, including colors, fonts, and spacing.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="image/download (2).jpg" alt="Python Developer Image">
+                    <div class="vertical-title">Python Developer (Present time-2024)</div>
+                    <div class="vertical-desc">
+                        A Python developer creates and maintains applications, designs, and debugs Python-based projects.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Adarsh's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <button id="instagram"><img src="image/download.jpg" alt="Instagram"></button>
+                    <button id="fb"><img src="image/download.png" alt="Facebook"></button>
+                    <button id="linkedin"><img src="image/download (1).png" alt="LinkedIn"></button>
+                    <button id="github"><img src="image/download (6).png" alt="GitHub"></button>
+                    <button id="twitter"><img src="image/download (7).png" alt="Twitter"></button>
+                    <button id="whatsapp"><img src="image/download (8).png" alt="WhatsApp"></button>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            copyright &#169; www.AdarshPortfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+
+        document.getElementById("instagram").addEventListener("click", function () {
+            window.location.href = "https://www.instagram.com/s_adarshsingh_/";
+        });
+
+        document.getElementById("fb").addEventListener("click", function () {
+            window.location.href = "https://www.facebook.com/profile.php?id=100015047792239";
+        });
+
+        document.getElementById("linkedin").addEventListener("click", function () {
+            window.location.href = "https://www.linkedin.com/in/adarsh-singh-a270a5253/";
+        });
+
+        document.getElementById("github").addEventListener("click", function () {
+            window.location.href = "https://github.com/adarshsingh7398/";
+        });
+
+        document.getElementById("twitter").addEventListener("click", function () {
+            window.location.href = "https://x.com/i/flow/login";
+        });
+
+        document.getElementById("whatsapp").addEventListener("click", function () {
+            window.location.href = "https://web.whatsapp.com/";
+        });
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
